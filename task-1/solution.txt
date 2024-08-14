@@ -3,7 +3,7 @@ touch one.txt two.txt three.txt four.txt
 mkdir BAD
 touch bad.txt
 mv one.txt /home/marwa/Downloads
-cd ~/Downloads
+cd /home/marwa/Downloads
 cp one.txt copy.txt
 cd ..
 nano marwa
