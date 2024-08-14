@@ -2,7 +2,7 @@ mkdir marwa
 touch ../marwa/one.txt  ../marwa /two.txt  ../marwa/three.txt ../marwa/four.txt
 mkdir ../marwa/BAD 
 touch ../marwa/BAD/bad.txt
-mv one.txt /home/marwa/Downloads
+mv ../marwa/one.txt /home/marwa/Downloads
 cp /home/marwa/Downloads/one.txt /home/marwa/Downloads/copy.txt
 cd ..
 nano ../marwa/two.txt
