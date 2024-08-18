@@ -1,5 +1,5 @@
-config --global user.name MarwaAhmed
-config --global user.email marwasapea@gmail.com
+git config --global user.name MarwaAhmed
+git config --global user.email marwasapea@gmail.com
 git clone https://github.com/Marwa-221b/OSC-training.git
 cd OSC-training/
 mkdir task-2
