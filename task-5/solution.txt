@@ -1,0 +1,2 @@
+  grep "@/*" info.csv |sort|uniq|tee emails.txt
+
