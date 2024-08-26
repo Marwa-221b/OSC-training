@@ -1,3 +1,0 @@
-  grep "@/*" info.csv |sort|uniq|tee emails.txt
-  ps -eo pid,cmd --sort=cmd|tee processes.txt
-
