@@ -1,3 +1,2 @@
-grep -o '[a-zA-Z0-9.-_]\+@[a-zA-Z]\+.[A-Za-z]\+' info.csv |sort|uniq>>emails.txtgrep -o '[a-zA-Z0-9.-_]\+@[a-zA-Z]\+.[A-Za-z]\+' info.csv |sort|uniq|tee emails.txt
-  ps -eo pid,cmd --sort=cmd>processes.txt
-
+  grep -o '[a-zA-Z0-9._-]\+@[a-zA-Z]\+.[a-zA-Z]\+' info.csv |sort|uniq|tee emails.txt
+  ps -eo pid,cmd --sort=cmd|tee processes.txt
